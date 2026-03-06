@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@layer base {
+  :root {
+    --background: 160 8% 7%;
+    --foreground: 80 10% 92%;
+
+    --card: 160 6% 10%;
+    --card-foreground: 80 10% 92%;
+
+    --popover: 160 6% 10%;
+    --popover-foreground: 80 10% 92%;
+
+    --primary: 150 40% 45%;
+    --primary-foreground: 160 8% 7%;
+
+    --secondary: 160 5% 14%;
+    --secondary-foreground: 80 10% 80%;
+
+    --muted: 160 5% 14%;
+    --muted-foreground: 160 5% 50%;
+
+    --accent: 150 40% 45%;
+    --accent-foreground: 160 8% 7%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 160 5% 18%;
+    --input: 160 5% 18%;
+    --ring: 150 40% 45%;
+
+    --radius: 0.5rem;
+
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    --sidebar-background: 160 6% 10%;
+    --sidebar-foreground: 160 5% 95.9%;
+    --sidebar-primary: 150 40% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 160 4% 15.9%;
+    --sidebar-accent-foreground: 160 5% 95.9%;
+    --sidebar-border: 160 4% 15.9%;
+    --sidebar-ring: 150 40% 45%;
+  }
+
+  .light {
+    --background: 90 20% 96%;
+    --foreground: 160 10% 12%;
+
+    --card: 90 15% 92%;
+    --card-foreground: 160 10% 12%;
+
+    --popover: 90 15% 92%;
+    --popover-foreground: 160 10% 12%;
+
+    --primary: 150 45% 35%;
+    --primary-foreground: 90 20% 96%;
+
+    --secondary: 90 10% 88%;
+    --secondary-foreground: 160 10% 30%;
+
+    --muted: 90 10% 88%;
+    --muted-foreground: 160 5% 40%;
+
+    --accent: 150 45% 35%;
+    --accent-foreground: 90 20% 96%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 90 10% 82%;
+    --input: 90 10% 82%;
+    --ring: 150 45% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+
+  ::selection {
+    background: hsl(150 40% 45% / 0.3);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(140 50% 65%));
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,5 @@
+albinlofgren.se, www.albinlofgren.se {
+    root * /var/www/portfolio
+    try_files {path} /index.html
+    file_server
+}
