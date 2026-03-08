@@ -11,7 +11,7 @@ const HeroSection = () => {
         backgroundImage: 'linear-gradient(hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--foreground)) 1px, transparent 1px)',
         backgroundSize: '60px 60px'
       }} />
-      <div className="absolute top-1/4 -right-32 w-96 h-96 rounded-full bg-primary/10 blur-[120px]" />
+      {/* <div className="absolute top-1/4 -right-32 w-96 h-96 rounded-full bg-primary/10 blur-[120px]" /> */}
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <motion.p
