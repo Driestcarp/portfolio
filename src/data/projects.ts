@@ -79,6 +79,26 @@ const projects: Project[] = [
     liveUrl: "#",
     githubUrl: "#",
   },
+  {
+    id: "home-server",
+    title: {
+      sv: "Portfolio på hemma-server (denna websida)",
+      en: "Portfolio on Home Server (this website)",
+    },
+    description: {
+    sv: "Denna webbplats hostas på en Raspberry Pi hemma hos mig.",
+    en: "This website is hosted on a Raspberry Pi home server.",
+  },
+  details: {
+    sv: "Webbplatsen är byggd med Vite och hostas på en Raspberry Pi i mitt hemnätverk. Trafiken går genom Cloudflare för DNS, CDN och säkerhet, medan Caddy används som webbserver för att automatiskt hantera HTTPS-certifikat via Let's Encrypt. Jag har även satt upp port forwarding och dynamisk DNS för att hålla domänen uppdaterad.",
+    en: "This website is built with Vite and hosted on a Raspberry Pi in my home network. Traffic is routed through Cloudflare for DNS, CDN and security, while Caddy serves the website and automatically manages HTTPS certificates using Let's Encrypt. I also configured port forwarding and dynamic DNS to keep the domain pointing to my home server.",
+  },
+  tags: ["Raspberry Pi", "Vite", "Caddy", "Cloudflare", "Home Server"],
+  color: "from-orange-500 to-red-500",
+    image: "",
+    liveUrl: "#",
+    githubUrl: "#",
+  },
 ];
 
 export default projects;
