@@ -1,23 +1,43 @@
 [
   {
-    "id": "university",
+    "id": "examensarbete",
     "title": {
-      "sv": "Universitetsprojekt",
-      "en": "University Projects"
+      "sv": "Examensarbete – Körjournal-app",
+      "en": "Thesis Project – Drive Log App"
     },
     "description": {
-      "sv": "Projekt genomförda under universitetsutbildningen inom programmering och systemutveckling.",
-      "en": "Projects completed during my university education involving programming and software development."
+      "sv": "En körjournal-app för tjänste- och förmånsbilar med GPS och AI-bildanalys.",
+      "en": "A drive log app for company and benefit cars using GPS and AI image analysis."
     },
     "details": {
-      "sv": "Grupprojekt där vi designade och implementerade mjukvarulösningar i olika programmeringsspråk med fokus på struktur, samarbete och problemlösning.",
-      "en": "Team-based projects where we designed and implemented software solutions using different programming languages with focus on collaboration and problem solving."
+      "sv": "Utvecklar en mobilapp i React Native för att underlätta dokumentation av tjänste- och förmånsresor. Appen använder GPS-spårning och AI-bildanalys för att automatisera registrering av resor och mätarställningar. Både användbarhet och teknisk funktionalitet utvärderas. Görs i par hos ett riktigt företag.",
+      "en": "Developing a mobile app in React Native to simplify the documentation of company and benefit car trips. The app uses GPS tracking and AI image analysis to automate logging of trips and odometer readings. Both usability and technical functionality are evaluated. Done in pairs at a real company."
     },
-    "tags": ["React", "Node.js", "Stripe"],
-    "color": "from-primary/20 to-primary/5",
+    "tags": ["React Native", "GPS", "AI", "Bildanalys", "Mobile"],
+    "color": "from-violet-500/20 to-violet-500/5",
     "image": "",
-    "liveUrl": "#",
-    "githubUrl": "#"
+    "liveUrl": null,
+    "githubUrl": null
+  },
+  {
+    "id": "buildility",
+    "title": {
+      "sv": "Buildility – HomeForge",
+      "en": "Buildility – HomeForge"
+    },
+    "description": {
+      "sv": "3D-modelleringsverktyg för husritningar utvecklat med agil metodik hos ett riktigt företag.",
+      "en": "3D modeling tool for house blueprints developed with agile methodology at a real company."
+    },
+    "details": {
+      "sv": "Vidareutvecklade Buildilitys applikation HomeForge – ett verktyg för 3D-modellering av hus som hjälper konsumenter att skapa egna ritningar för bygglovsansökan. Byggdes med Bootstrap, Three.js, React och TypeScript. Projektet kördes med scrum och Azure DevOps i ett team på 6 personer med fokus på agil utveckling.",
+      "en": "Continued development of Buildility's application HomeForge – a 3D house modeling tool that helps consumers create their own blueprints for building permit applications. Built with Bootstrap, Three.js, React and TypeScript. The project used scrum and Azure DevOps in a team of 6 with focus on agile development."
+    },
+    "tags": ["React", "Three.js", "TypeScript", "Bootstrap", "Scrum", "Azure DevOps"],
+    "color": "from-emerald-500/20 to-emerald-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": null
   },
   {
     "id": "agricam",
@@ -26,43 +46,23 @@
       "en": "Agricam Project"
     },
     "description": {
-      "sv": "Samarbete med företag genom Linköpings Universitet.",
-      "en": "Collaboration with a company through Linköping University."
+      "sv": "AI speech-to-text och text-to-speech integration i Agricams befintliga app.",
+      "en": "AI speech-to-text and text-to-speech integration into Agricam's existing app."
     },
     "details": {
-      "sv": "Projekt tillsammans med företaget Agricam där vi utvecklade tekniska lösningar och arbetade nära ett riktigt företag.",
-      "en": "Project together with the company Agricam where we worked on technical solutions and development in collaboration with a real company."
+      "sv": "Utvecklade AI-driven tal-till-text och text-till-tal-funktionalitet för Agricams app tillsammans med ett team på 6 personer. Vi byggde en helt ny backend-endpoint i C# och integrerade funktionen i frontenden med React Native. AI-modellen var Microsoft Azure AI Speech. Projektet följde agil metodik via Azure DevOps.",
+      "en": "Developed AI-driven speech-to-text and text-to-speech functionality for Agricam's app as part of a team of 6. We built a new backend endpoint from scratch in C# and integrated the feature into the frontend using React Native. The AI model was Microsoft Azure AI Speech. The project followed agile methodology via Azure DevOps."
     },
-    "tags": ["TypeScript", "D3.js", "PostgreSQL"],
+    "tags": ["C#", "React Native", "Azure AI Speech", "Azure DevOps", "REST API"],
     "color": "from-blue-500/20 to-blue-500/5",
     "image": "",
-    "liveUrl": "#",
-    "githubUrl": "#"
-  },
-  {
-    "id": "programming",
-    "title": {
-      "sv": "Programmeringsprojekt",
-      "en": "Programming Projects"
-    },
-    "description": {
-      "sv": "Flera kursprojekt inom algoritmer, systemdesign och mjukvaruutveckling.",
-      "en": "Multiple course projects involving algorithms, system design and software development."
-    },
-    "details": {
-      "sv": "Utveckling i språk som C, Python, Java och JavaScript där fokus låg på problemlösning, systemstruktur och samarbete i grupp.",
-      "en": "Developed solutions in languages such as C, Python, Java and JavaScript focusing on problem solving and system design."
-    },
-    "tags": ["React", "WebSocket", "AWS"],
-    "color": "from-emerald-500/20 to-emerald-500/5",
-    "image": "",
-    "liveUrl": "#",
-    "githubUrl": "#"
+    "liveUrl": null,
+    "githubUrl": null
   },
   {
     "id": "home-server",
     "title": {
-      "sv": "Portfolio på hemma-server (denna websida)",
+      "sv": "Portfolio på hemma-server (denna webbsida)",
       "en": "Portfolio on Home Server (this website)"
     },
     "description": {
@@ -70,13 +70,213 @@
       "en": "This website is hosted on a Raspberry Pi home server."
     },
     "details": {
-      "sv": "Webbplatsen är byggd med Vite och hostas på en Raspberry Pi i mitt hemnätverk. Trafiken går genom Cloudflare för DNS, CDN och säkerhet, medan Caddy används som webbserver för att automatiskt hantera HTTPS-certifikat via Let's Encrypt. Jag har även satt upp port forwarding och dynamisk DNS för att hålla domänen uppdaterad.",
-      "en": "This website is built with Vite and hosted on a Raspberry Pi in my home network. Traffic is routed through Cloudflare for DNS, CDN and security, while Caddy serves the website and automatically manages HTTPS certificates using Let's Encrypt. I also configured port forwarding and dynamic DNS to keep the domain pointing to my home server."
+      "sv": "Webbplatsen är byggd med Vite och React och hostas på en Raspberry Pi i mitt hemnätverk. Trafiken går genom Cloudflare för DNS, CDN och säkerhet, medan Caddy används som webbserver och automatiskt hanterar HTTPS-certifikat via Let's Encrypt. Jag har även satt upp port forwarding och dynamisk DNS för att hålla domänen uppdaterad. Jag använde Lovable AI för att snabbt få en grund att utgå från, sedan anpassade och byggde jag vidare på koden själv och hanterade hela infrastrukturen.",
+      "en": "This website is built with Vite and React and hosted on a Raspberry Pi in my home network. Traffic is routed through Cloudflare for DNS, CDN and security, while Caddy serves the site and automatically manages HTTPS certificates via Let's Encrypt. I also configured port forwarding and dynamic DNS to keep the domain pointing to my home server. I used Lovable AI to quickly get a starting point, then customized and built on the code myself while handling all the infrastructure."
     },
-    "tags": ["Raspberry Pi", "Vite", "Caddy", "Cloudflare", "Home Server"],
-    "color": "from-orange-500 to-red-500",
+    "tags": ["Raspberry Pi", "Vite", "React", "Caddy", "Cloudflare", "Let's Encrypt"],
+    "color": "from-orange-500/20 to-orange-500/5",
+    "image": "",
+    "liveUrl": "/",
+    "githubUrl": "#"
+  },
+  {
+    "id": "soa-project",
+    "title": {
+      "sv": "SOA Banksystem",
+      "en": "SOA Banking System"
+    },
+    "description": {
+      "sv": "Ett enterprise-banksystem byggt med Service-Oriented Architecture.",
+      "en": "An enterprise banking system built with Service-Oriented Architecture."
+    },
+    "details": {
+      "sv": "Utvecklade ett enterprise-system med SOA-arkitektur bestående av tre tjänster: en REST API i Go, en i Python och en huvudtjänst i Java med Maven och JAX-RS. Systemet hanterade personer, banker och konton med transaktionsloggning via Kafka. Implementerade concurrency-hantering, JPA, kodtäckning på 60%+ och följde SOA-principer.",
+      "en": "Developed an enterprise system with SOA architecture consisting of three services: a REST API in Go, one in Python and a main service in Java using Maven and JAX-RS. The system managed people, banks and accounts with transaction logging via Kafka. Implemented concurrency handling, JPA, 60%+ code coverage and followed SOA principles."
+    },
+    "tags": ["Java", "Go", "Python", "Maven", "Kafka", "REST", "SOA", "JPA"],
+    "color": "from-indigo-500/20 to-indigo-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "#"
+  },
+  {
+    "id": "ai-data-analysis",
+    "title": {
+      "sv": "AI-dataanalys: Naive Bayes vs LLM",
+      "en": "AI Data Analysis: Naive Bayes vs LLM"
+    },
+    "description": {
+      "sv": "Jämförelse av Naive Bayes och Gemma3 LLM för filmgenreklassificering på IMDB-data.",
+      "en": "Comparison of Naive Bayes and Gemma3 LLM for movie genre classification on IMDB data."
+    },
+    "details": {
+      "sv": "Analyserade ett IMDB-dataset med ~200 000 tränings- och ~60 000 testfilmer för att klassificera genre utifrån filmbeskrivningar. Jämförde en Naive Bayes-modell mot Gemma3 LLM med accuracy, recall, precision och F1-score. Naive Bayes presterade marginellt bättre och var dramatiskt snabbare – minuter jämfört med ~8 timmar för LLM:en. Kodades i Python i grupp om 6, indelade i par.",
+      "en": "Analyzed an IMDB dataset with ~200,000 training and ~60,000 test movies to classify genre from film descriptions. Compared a Naive Bayes model against Gemma3 LLM using accuracy, recall, precision and F1-score. Naive Bayes performed marginally better and was dramatically faster – minutes compared to ~8 hours for the LLM. Coded in Python in a group of 6 split into pairs."
+    },
+    "tags": ["Python", "Naive Bayes", "LLM", "Gemma3", "Machine Learning", "IMDB"],
+    "color": "from-cyan-500/20 to-cyan-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "#"
+  },
+  {
+    "id": "tweeeter",
+    "title": {
+      "sv": "Tweeeter",
+      "en": "Tweeeter"
+    },
+    "description": {
+      "sv": "En Twitter-klon byggd med Vue.js och MongoDB.",
+      "en": "A Twitter clone built with Vue.js and MongoDB."
+    },
+    "details": {
+      "sv": "Byggde en fullstack Twitter-klon med Vue.js i frontend och MongoDB som databas. Projektet täckte HTML, CSS, JavaScript, Node.js och MongoDB och examinerades genom muntlig demonstration av både funktion och kod. Gjordes i par.",
+      "en": "Built a fullstack Twitter clone with Vue.js on the frontend and MongoDB as the database. The project covered HTML, CSS, JavaScript, Node.js and MongoDB and was examined through an oral demonstration of both functionality and code. Done in pairs."
+    },
+    "tags": ["Vue.js", "Node.js", "MongoDB", "Fullstack", "JavaScript"],
+    "color": "from-sky-500/20 to-sky-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "#"
+  },
+  {
+    "id": "guardians-of-the-pond",
+    "title": {
+      "sv": "Guardians of the Pond",
+      "en": "Guardians of the Pond"
+    },
+    "description": {
+      "sv": "Ett tower defense-spel där grodor försvarar sin damm mot insekter.",
+      "en": "A tower defense game where frogs defend their pond against insects."
+    },
+    "details": {
+      "sv": "Byggde ett tower defense-spel i spelmotorn Godot med GDScript. Tornen är grodor som skyddar sin damm mot vågor av flugor och andra insekter. Projektet fokuserade på spelmekanik, intuitiv kontroll, progression och visuell feedback. Gjordes i par med både gemensam och individuell kodning.",
+      "en": "Built a tower defense game in the Godot game engine using GDScript. The towers are frogs defending their pond against waves of flies and other insects. The project focused on game mechanics, intuitive controls, progression and visual feedback. Done in pairs with both shared and individual coding."
+    },
+    "tags": ["Godot", "GDScript", "Game Development", "Tower Defense"],
+    "color": "from-lime-500/20 to-lime-500/5",
     "image": "",
     "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "rating-app",
+    "title": {
+      "sv": "Rating-app",
+      "en": "Rating App"
+    },
+    "description": {
+      "sv": "En Flutter-app för att betygsätta och hålla koll på saker du testat.",
+      "en": "A Flutter app for rating and keeping track of things you have tried."
+    },
+    "details": {
+      "sv": "Byggde en mobilapp i Flutter med Firestore som databas. Appen låter användaren skapa kategorier (t.ex. läsk, restauranger, maträtter) och betygsätta varje sak med 0–5 stjärnor. Individuellt projekt med fokus på tekniska krav, användbarhet och att sprida och mäta användning.",
+      "en": "Built a mobile app in Flutter with Firestore as the database. The app lets the user create categories (e.g. sodas, restaurants, dishes) and rate each item with 0–5 stars. Individual project focusing on technical requirements, usability and measuring app usage."
+    },
+    "tags": ["Flutter", "Dart", "Firestore", "Firebase", "Mobile"],
+    "color": "from-amber-500/20 to-amber-500/5",
+    "image": "",
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "bullet-hell",
+    "title": {
+      "sv": "Bullet Hell-spel i C++",
+      "en": "Bullet Hell Game in C++"
+    },
+    "description": {
+      "sv": "Ett bullet hell-spel byggt i C++ med arv och SFML för grafik.",
+      "en": "A bullet hell game built in C++ using inheritance and SFML for graphics."
+    },
+    "details": {
+      "sv": "Utvecklade ett bullet hell-spel i C++ med SFML (Simple and Fast Multimedia Library) för grafik och ljud. Projektet tillämpade objektorienterad design med arv, UML-diagram och programutvecklingsmetodik. Gjordes i par med fokus på kodstruktur och OOP-principer.",
+      "en": "Developed a bullet hell game in C++ using SFML (Simple and Fast Multimedia Library) for graphics and audio. The project applied object-oriented design with inheritance, UML diagrams and software engineering methodology. Done in pairs with focus on code structure and OOP principles."
+    },
+    "tags": ["C++", "SFML", "OOP", "UML", "Game Development"],
+    "color": "from-red-500/20 to-red-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "#"
+  },
+  {
+    "id": "brianair-database",
+    "title": {
+      "sv": "Databasdesign – Brianair",
+      "en": "Database Design – Brianair"
+    },
+    "description": {
+      "sv": "Komplett databasdesign för ett fiktivt flygbolag med MySQL.",
+      "en": "Complete database design for a fictional airline using MySQL."
+    },
+    "details": {
+      "sv": "Designade och implementerade en komplett databas för det fiktiva flygbolaget Brianair. Projektet inkluderade EER-diagram, relationsscheman, SQL-lagrade procedurer och komplexa SQL-queries. Gjordes i par.",
+      "en": "Designed and implemented a complete database for the fictional airline Brianair. The project included EER diagrams, relational schemas, SQL stored procedures and complex SQL queries. Done in pairs."
+    },
+    "tags": ["MySQL", "SQL", "EER-diagram", "Databasdesign"],
+    "color": "from-teal-500/20 to-teal-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "#"
+  },
+  {
+    "id": "preciouspluspus",
+    "title": {
+      "sv": "PreciousPlusPlus",
+      "en": "PreciousPlusPlus"
+    },
+    "description": {
+      "sv": "Ett eget programmeringsspråk inspirerat av Gollum från Sagan om ringen.",
+      "en": "A custom programming language inspired by Gollum from Lord of the Rings."
+    },
+    "details": {
+      "sv": "Skapade ett eget programmeringsspråk med unik syntax inspirerad av hur Gollum talar i Sagan om ringen. Byggdes i Ruby och inkluderar en tolk som direkt kan exekvera program skrivna i språket. Projektet gjordes i par och inkluderade design av grammatik, syntax och implementering av interpretatorn.",
+      "en": "Created a custom programming language with unique syntax inspired by how Gollum speaks in Lord of the Rings. Built in Ruby and includes an interpreter that can directly execute programs written in the language. The project was done in pairs and included designing the grammar, syntax and implementing the interpreter."
+    },
+    "tags": ["Ruby", "Interpreter", "Language Design"],
+    "color": "from-yellow-500/20 to-yellow-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "#"
+  },
+  {
+    "id": "chat-app",
+    "title": {
+      "sv": "Chat-applikation i C#",
+      "en": "Chat Application in C#"
+    },
+    "description": {
+      "sv": "En körbar Windows-app för chatt med inloggning och chatthistorik.",
+      "en": "A runnable Windows app for chat with login and chat history."
+    },
+    "details": {
+      "sv": "Byggde en fullständig chattapplikation i C# och .NET som körs som en körbar Windows-app. Applikationen inkluderar inloggning, koppling mellan två användare och sparad chatthistorik. Gjordes i par med Microsoft Visual Studio.",
+      "en": "Built a complete chat application in C# and .NET that runs as a Windows executable. The application includes login, connection between two users and saved chat history. Done in pairs using Microsoft Visual Studio."
+    },
+    "tags": ["C#", ".NET", "Windows", "Visual Studio"],
+    "color": "from-purple-500/20 to-purple-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "#"
+  },
+  {
+    "id": "system-administration",
+    "title": {
+      "sv": "Systemadministration",
+      "en": "System Administration"
+    },
+    "description": {
+      "sv": "Uppsättning av ett Unix-baserat kontorsnätverk med klienter, server och router.",
+      "en": "Setup of a Unix-based office network with clients, server and router."
+    },
+    "details": {
+      "sv": "Genomförde ett flertal labbar där vi stegvis byggde upp ett komplett nätverkssystem med klienter, server och router i en virtualiserad Debian-miljö. Konfigurerade och kodade tjänster, testade och felsökte systemet. Repot innehåller detaljerade anteckningar och dokumentation med steg-för-steg-förklaringar av samtliga konfigurationer och kommandon.",
+      "en": "Completed a series of labs where we progressively set up a complete network system with clients, server and router in a virtualized Debian environment. Configured and coded services, tested and debugged the system. The repository contains detailed notes and documentation with step-by-step explanations of all configurations and commands."
+    },
+    "tags": ["Linux", "Debian", "Systemadministration", "Nätverk", "Unix"],
+    "color": "from-slate-500/20 to-slate-500/5",
+    "image": "",
+    "liveUrl": null,
     "githubUrl": "#"
   }
 ]
