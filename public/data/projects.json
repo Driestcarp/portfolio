@@ -1,0 +1,82 @@
+[
+  {
+    "id": "university",
+    "title": {
+      "sv": "Universitetsprojekt",
+      "en": "University Projects"
+    },
+    "description": {
+      "sv": "Projekt genomförda under universitetsutbildningen inom programmering och systemutveckling.",
+      "en": "Projects completed during my university education involving programming and software development."
+    },
+    "details": {
+      "sv": "Grupprojekt där vi designade och implementerade mjukvarulösningar i olika programmeringsspråk med fokus på struktur, samarbete och problemlösning.",
+      "en": "Team-based projects where we designed and implemented software solutions using different programming languages with focus on collaboration and problem solving."
+    },
+    "tags": ["React", "Node.js", "Stripe"],
+    "color": "from-primary/20 to-primary/5",
+    "image": "",
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "agricam",
+    "title": {
+      "sv": "Agricam-projekt",
+      "en": "Agricam Project"
+    },
+    "description": {
+      "sv": "Samarbete med företag genom Linköpings Universitet.",
+      "en": "Collaboration with a company through Linköping University."
+    },
+    "details": {
+      "sv": "Projekt tillsammans med företaget Agricam där vi utvecklade tekniska lösningar och arbetade nära ett riktigt företag.",
+      "en": "Project together with the company Agricam where we worked on technical solutions and development in collaboration with a real company."
+    },
+    "tags": ["TypeScript", "D3.js", "PostgreSQL"],
+    "color": "from-blue-500/20 to-blue-500/5",
+    "image": "",
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "programming",
+    "title": {
+      "sv": "Programmeringsprojekt",
+      "en": "Programming Projects"
+    },
+    "description": {
+      "sv": "Flera kursprojekt inom algoritmer, systemdesign och mjukvaruutveckling.",
+      "en": "Multiple course projects involving algorithms, system design and software development."
+    },
+    "details": {
+      "sv": "Utveckling i språk som C, Python, Java och JavaScript där fokus låg på problemlösning, systemstruktur och samarbete i grupp.",
+      "en": "Developed solutions in languages such as C, Python, Java and JavaScript focusing on problem solving and system design."
+    },
+    "tags": ["React", "WebSocket", "AWS"],
+    "color": "from-emerald-500/20 to-emerald-500/5",
+    "image": "",
+    "liveUrl": "#",
+    "githubUrl": "#"
+  },
+  {
+    "id": "home-server",
+    "title": {
+      "sv": "Portfolio på hemma-server (denna websida)",
+      "en": "Portfolio on Home Server (this website)"
+    },
+    "description": {
+      "sv": "Denna webbplats hostas på en Raspberry Pi hemma hos mig.",
+      "en": "This website is hosted on a Raspberry Pi home server."
+    },
+    "details": {
+      "sv": "Webbplatsen är byggd med Vite och hostas på en Raspberry Pi i mitt hemnätverk. Trafiken går genom Cloudflare för DNS, CDN och säkerhet, medan Caddy används som webbserver för att automatiskt hantera HTTPS-certifikat via Let's Encrypt. Jag har även satt upp port forwarding och dynamisk DNS för att hålla domänen uppdaterad.",
+      "en": "This website is built with Vite and hosted on a Raspberry Pi in my home network. Traffic is routed through Cloudflare for DNS, CDN and security, while Caddy serves the website and automatically manages HTTPS certificates using Let's Encrypt. I also configured port forwarding and dynamic DNS to keep the domain pointing to my home server."
+    },
+    "tags": ["Raspberry Pi", "Vite", "Caddy", "Cloudflare", "Home Server"],
+    "color": "from-orange-500 to-red-500",
+    "image": "",
+    "liveUrl": "#",
+    "githubUrl": "#"
+  }
+]

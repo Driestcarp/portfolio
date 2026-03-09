@@ -1,12 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Github, ChevronDown } from "lucide-react";
 import { useLanguage, type Lang } from "@/contexts/LanguageContext";
-import projects from "@/data/projects";
+import { loadProjects } from "@/data/load_projects";
+import type { Project } from "@/types/project";
 
 const ProjectsSection = () => {
+  const [projects, setProjects] = useState<Project[]>([]);
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const { lang, t } = useLanguage();
+
+  useEffect(() => {
+    loadProjects().then(setProjects);
+  }, []);
 
   const toggle = (i: number) => setOpenIndex(openIndex === i ? null : i);
 
