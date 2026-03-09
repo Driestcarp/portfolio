@@ -1,20 +1,20 @@
 [
   {
-    "id": "examensarbete",
+    "id": "agricam",
     "title": {
-      "sv": "Examensarbete – Körjournal-app",
-      "en": "Thesis Project – Drive Log App"
+      "sv": "Agricam-projekt",
+      "en": "Agricam Project"
     },
     "description": {
-      "sv": "En körjournal-app för tjänste- och förmånsbilar med GPS och AI-bildanalys.",
-      "en": "A drive log app for company and benefit cars using GPS and AI image analysis."
+      "sv": "AI speech-to-text och text-to-speech integration i Agricams befintliga app.",
+      "en": "AI speech-to-text and text-to-speech integration into Agricam's existing app."
     },
     "details": {
-      "sv": "Utvecklar en mobilapp i React Native för att underlätta dokumentation av tjänste- och förmånsresor. Appen använder GPS-spårning och AI-bildanalys för att automatisera registrering av resor och mätarställningar. Både användbarhet och teknisk funktionalitet utvärderas. Görs i par hos ett riktigt företag.",
-      "en": "Developing a mobile app in React Native to simplify the documentation of company and benefit car trips. The app uses GPS tracking and AI image analysis to automate logging of trips and odometer readings. Both usability and technical functionality are evaluated. Done in pairs at a real company."
+      "sv": "Utvecklade AI-driven tal-till-text och text-till-tal-funktionalitet för Agricams app tillsammans med ett team på 6 studenter. Vi byggde en helt ny backend-endpoint i C# och integrerade funktionen i frontenden med React Native. AI-modellen var Microsoft Azure AI Speech. Projektet följde agil metodik via Azure DevOps.",
+      "en": "Developed AI-driven speech-to-text and text-to-speech functionality for Agricam's app as part of a team of 6. We built a new backend endpoint from scratch in C# and integrated the feature into the frontend using React Native. The AI model was Microsoft Azure AI Speech. The project followed agile methodology via Azure DevOps."
     },
-    "tags": ["React Native", "GPS", "AI", "Bildanalys", "Mobile"],
-    "color": "from-violet-500/20 to-violet-500/5",
+    "tags": ["C#", "React Native", "Azure AI Speech", "Azure DevOps", "REST API"],
+    "color": "",
     "image": "",
     "liveUrl": null,
     "githubUrl": null
@@ -34,27 +34,7 @@
       "en": "Continued development of Buildility's application HomeForge – a 3D house modeling tool that helps consumers create their own blueprints for building permit applications. Built with Bootstrap, Three.js, React and TypeScript. The project used scrum and Azure DevOps in a team of 6 with focus on agile development."
     },
     "tags": ["React", "Three.js", "TypeScript", "Bootstrap", "Scrum", "Azure DevOps"],
-    "color": "from-emerald-500/20 to-emerald-500/5",
-    "image": "",
-    "liveUrl": null,
-    "githubUrl": null
-  },
-  {
-    "id": "agricam",
-    "title": {
-      "sv": "Agricam-projekt",
-      "en": "Agricam Project"
-    },
-    "description": {
-      "sv": "AI speech-to-text och text-to-speech integration i Agricams befintliga app.",
-      "en": "AI speech-to-text and text-to-speech integration into Agricam's existing app."
-    },
-    "details": {
-      "sv": "Utvecklade AI-driven tal-till-text och text-till-tal-funktionalitet för Agricams app tillsammans med ett team på 6 personer. Vi byggde en helt ny backend-endpoint i C# och integrerade funktionen i frontenden med React Native. AI-modellen var Microsoft Azure AI Speech. Projektet följde agil metodik via Azure DevOps.",
-      "en": "Developed AI-driven speech-to-text and text-to-speech functionality for Agricam's app as part of a team of 6. We built a new backend endpoint from scratch in C# and integrated the feature into the frontend using React Native. The AI model was Microsoft Azure AI Speech. The project followed agile methodology via Azure DevOps."
-    },
-    "tags": ["C#", "React Native", "Azure AI Speech", "Azure DevOps", "REST API"],
-    "color": "from-blue-500/20 to-blue-500/5",
+    "color": "",
     "image": "",
     "liveUrl": null,
     "githubUrl": null
@@ -74,11 +54,51 @@
       "en": "This website is built with Vite and React and hosted on a Raspberry Pi in my home network. Traffic is routed through Cloudflare for DNS, CDN and security, while Caddy serves the site and automatically manages HTTPS certificates via Let's Encrypt. I also configured port forwarding and dynamic DNS to keep the domain pointing to my home server. I used Lovable AI to quickly get a starting point, then customized and built on the code myself while handling all the infrastructure."
     },
     "tags": ["Raspberry Pi", "Vite", "React", "Caddy", "Cloudflare", "Let's Encrypt"],
-    "color": "from-orange-500/20 to-orange-500/5",
+    "color": "",
     "image": "",
     "liveUrl": "/",
     "githubUrl": "#"
   },
+  {
+    "id": "examensarbete",
+    "title": {
+      "sv": "Examensarbete – Körjournal-app",
+      "en": "Thesis Project – Drive Log App"
+    },
+    "description": {
+      "sv": "En körjournal-app för tjänste- och förmånsbilar med GPS och AI-bildanalys.",
+      "en": "A drive log app for company and benefit cars using GPS and AI image analysis."
+    },
+    "details": {
+      "sv": "Utvecklar en mobilapp i React Native för att underlätta dokumentation av tjänste- och förmånsresor. Appen använder GPS-spårning och AI-bildanalys för att automatisera registrering av resor och mätarställningar. Både användbarhet och teknisk funktionalitet utvärderas.",
+      "en": "Developing a mobile app in React Native to simplify the documentation of company and benefit car trips. The app uses GPS tracking and AI image analysis to automate logging of trips and odometer readings. Both usability and technical functionality are evaluated."
+    },
+    "tags": ["React Native", "GPS", "AI", "Bildanalys", "Mobile"],
+    "color": "",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": null
+  },
+  {
+    "id": "terminal-videoplayer",
+    "title": {
+      "sv": "Terminal Videospelare",
+      "en": "Terminal Video Player"
+    },
+    "description": {
+      "sv": "En videospelare som renderar video direkt i terminalen, byggd i C++ med OpenCV.",
+      "en": "A video player that renders video directly in the terminal, built in C++ with OpenCV."
+    },
+    "details": {
+      "sv": "Ett eget hobbyprojekt byggt i C++ med OpenCV för att spela upp video direkt i terminalen. Stödjer .mp4 och .gif, justerbar FPS, loopning och uppspelningsstatistik. Projektet byggdes för att det var ett kul tekniskt utmaning och kompileras med Make.",
+      "en": "A personal hobby project built in C++ using OpenCV to play video directly in the terminal. Supports .mp4 and .gif, adjustable FPS, loop playback and playback statistics. Built purely for the fun of the technical challenge, compiled with Make."
+    },
+    "tags": ["C++", "OpenCV", "Make", "Terminal", "Linux"],
+    "color": "from-zinc-500/20 to-zinc-500/5",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "https://github.com/Driestcarp/terminal_videoplayer"
+},
   {
     "id": "soa-project",
     "title": {
@@ -94,10 +114,30 @@
       "en": "Developed an enterprise system with SOA architecture consisting of three services: a REST API in Go, one in Python and a main service in Java using Maven and JAX-RS. The system managed people, banks and accounts with transaction logging via Kafka. Implemented concurrency handling, JPA, 60%+ code coverage and followed SOA principles."
     },
     "tags": ["Java", "Go", "Python", "Maven", "Kafka", "REST", "SOA", "JPA"],
-    "color": "from-indigo-500/20 to-indigo-500/5",
+    "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "#"
+    "githubUrl": "https://github.com/Driestcarp/enterprise_systems_soa_project"
+  },
+  {
+    "id": "preciouspluspus",
+    "title": {
+      "sv": "PreciousPlusPlus",
+      "en": "PreciousPlusPlus"
+    },
+    "description": {
+      "sv": "Ett eget programmeringsspråk inspirerat av Gollum från Sagan om ringen.",
+      "en": "A custom programming language inspired by Gollum from Lord of the Rings."
+    },
+    "details": {
+      "sv": "Skapade ett eget programmeringsspråk med unik syntax inspirerad av hur Gollum talar i Sagan om ringen. Byggdes i Ruby och inkluderar en tolk som direkt kan exekvera program skrivna i språket. Projektet gjordes i par och inkluderade design av grammatik, syntax och implementering av interpretatorn.",
+      "en": "Created a custom programming language with unique syntax inspired by how Gollum speaks in Lord of the Rings. Built in Ruby and includes an interpreter that can directly execute programs written in the language. The project was done in pairs and included designing the grammar, syntax and implementing the interpreter."
+    },
+    "tags": ["Ruby", "Interpreter", "Language Design"],
+    "color": "",
+    "image": "",
+    "liveUrl": null,
+    "githubUrl": "https://github.com/Driestcarp/PreciousPlusPlus"
   },
   {
     "id": "ai-data-analysis",
@@ -114,16 +154,16 @@
       "en": "Analyzed an IMDB dataset with ~200,000 training and ~60,000 test movies to classify genre from film descriptions. Compared a Naive Bayes model against Gemma3 LLM using accuracy, recall, precision and F1-score. Naive Bayes performed marginally better and was dramatically faster – minutes compared to ~8 hours for the LLM. Coded in Python in a group of 6 split into pairs."
     },
     "tags": ["Python", "Naive Bayes", "LLM", "Gemma3", "Machine Learning", "IMDB"],
-    "color": "from-cyan-500/20 to-cyan-500/5",
+    "color": "",
     "image": "",
     "liveUrl": null,
     "githubUrl": "#"
   },
   {
-    "id": "tweeeter",
+    "id": "tweeter",
     "title": {
-      "sv": "Tweeeter",
-      "en": "Tweeeter"
+      "sv": "Tweeter",
+      "en": "Tweeter"
     },
     "description": {
       "sv": "En Twitter-klon byggd med Vue.js och MongoDB.",
@@ -154,10 +194,10 @@
       "en": "Built a tower defense game in the Godot game engine using GDScript. The towers are frogs defending their pond against waves of flies and other insects. The project focused on game mechanics, intuitive controls, progression and visual feedback. Done in pairs with both shared and individual coding."
     },
     "tags": ["Godot", "GDScript", "Game Development", "Tower Defense"],
-    "color": "from-lime-500/20 to-lime-500/5",
+    "color": "",
     "image": "",
-    "liveUrl": "#",
-    "githubUrl": "#"
+    "liveUrl": "https://youtu.be/VlGZEdOfnx4?feature=shared",
+    "githubUrl": "https://github.com/Driestcarp/guardians_of_the_pond/tree/main/guardians-of-the-pond"
   },
   {
     "id": "rating-app",
@@ -174,10 +214,10 @@
       "en": "Built a mobile app in Flutter with Firestore as the database. The app lets the user create categories (e.g. sodas, restaurants, dishes) and rate each item with 0–5 stars. Individual project focusing on technical requirements, usability and measuring app usage."
     },
     "tags": ["Flutter", "Dart", "Firestore", "Firebase", "Mobile"],
-    "color": "from-amber-500/20 to-amber-500/5",
+    "color": "",
     "image": "",
-    "liveUrl": "#",
-    "githubUrl": "#"
+    "liveUrl": "https://youtu.be/YBPMShUrgxk",
+    "githubUrl": "https://github.com/Driestcarp/rating_app/"
   },
   {
     "id": "bullet-hell",
@@ -194,10 +234,10 @@
       "en": "Developed a bullet hell game in C++ using SFML (Simple and Fast Multimedia Library) for graphics and audio. The project applied object-oriented design with inheritance, UML diagrams and software engineering methodology. Done in pairs with focus on code structure and OOP principles."
     },
     "tags": ["C++", "SFML", "OOP", "UML", "Game Development"],
-    "color": "from-red-500/20 to-red-500/5",
+    "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "#"
+    "githubUrl": "https://github.com/Driestcarp/bullethell_game"
   },
   {
     "id": "brianair-database",
@@ -214,30 +254,10 @@
       "en": "Designed and implemented a complete database for the fictional airline Brianair. The project included EER diagrams, relational schemas, SQL stored procedures and complex SQL queries. Done in pairs."
     },
     "tags": ["MySQL", "SQL", "EER-diagram", "Databasdesign"],
-    "color": "from-teal-500/20 to-teal-500/5",
+    "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "#"
-  },
-  {
-    "id": "preciouspluspus",
-    "title": {
-      "sv": "PreciousPlusPlus",
-      "en": "PreciousPlusPlus"
-    },
-    "description": {
-      "sv": "Ett eget programmeringsspråk inspirerat av Gollum från Sagan om ringen.",
-      "en": "A custom programming language inspired by Gollum from Lord of the Rings."
-    },
-    "details": {
-      "sv": "Skapade ett eget programmeringsspråk med unik syntax inspirerad av hur Gollum talar i Sagan om ringen. Byggdes i Ruby och inkluderar en tolk som direkt kan exekvera program skrivna i språket. Projektet gjordes i par och inkluderade design av grammatik, syntax och implementering av interpretatorn.",
-      "en": "Created a custom programming language with unique syntax inspired by how Gollum speaks in Lord of the Rings. Built in Ruby and includes an interpreter that can directly execute programs written in the language. The project was done in pairs and included designing the grammar, syntax and implementing the interpreter."
-    },
-    "tags": ["Ruby", "Interpreter", "Language Design"],
-    "color": "from-yellow-500/20 to-yellow-500/5",
-    "image": "",
-    "liveUrl": null,
-    "githubUrl": "#"
+    "githubUrl": "https://github.com/Driestcarp/brian-air-projekt"
   },
   {
     "id": "chat-app",
@@ -254,10 +274,10 @@
       "en": "Built a complete chat application in C# and .NET that runs as a Windows executable. The application includes login, connection between two users and saved chat history. Done in pairs using Microsoft Visual Studio."
     },
     "tags": ["C#", ".NET", "Windows", "Visual Studio"],
-    "color": "from-purple-500/20 to-purple-500/5",
+    "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "#"
+    "githubUrl": "https://github.com/Driestcarp/windows_chat_app"
   },
   {
     "id": "system-administration",
@@ -274,9 +294,9 @@
       "en": "Completed a series of labs where we progressively set up a complete network system with clients, server and router in a virtualized Debian environment. Configured and coded services, tested and debugged the system. The repository contains detailed notes and documentation with step-by-step explanations of all configurations and commands."
     },
     "tags": ["Linux", "Debian", "Systemadministration", "Nätverk", "Unix"],
-    "color": "from-slate-500/20 to-slate-500/5",
+    "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "#"
+    "githubUrl": "https://github.com/Driestcarp/system_admin_project"
   }
 ]

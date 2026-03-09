@@ -31,8 +31,8 @@ const HeroSection = () => {
         >
           {t("hero", "greeting")}{" "}
           <span className="text-gradient">{personalInfo.name.split(" ")[0]}</span>
-          <br />
-          <span className="text-muted-foreground font-light">{t("hero", "tagline")}</span>
+          {/* <br />
+          <span className="text-muted-foreground font-light">{t("hero", "tagline")}</span> */}
         </motion.h1>
 
         <motion.p

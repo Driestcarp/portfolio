@@ -6,6 +6,7 @@ export const personalInfo = {
   name: "Albin Löfgren",
   email: "albin.lofgren.01@gmail.com",
   github: "https://github.com/Driestcarp/",
+  cv: "/CV_Albin_Löfgren.pdf",
   // linkedin: "#",
   // twitter: "#",
 };
@@ -37,7 +38,7 @@ export const education = [
       en: "ABB Industrial High School, Ludvika",
     },
     description: {
-      sv: "Gymnasieutbildning inom teknik med fokus på matematik, fysik och tekniska system.",
+      sv: "Gymnasieutbildning inom teknik med fokus på matematik, fysik och teknik.",
       en: "Technical high school education focused on mathematics, physics and engineering.",
     },
   },
@@ -48,16 +49,16 @@ export const skills = [
     icon: "Code2" as const,
     title: { sv: "Programmering", en: "Programming" },
     description: {
-      sv: "C, C++, C#, Python, Java, JavaScript, Ruby, Assembly, Flutter, HTML, CSS, Vue.js och React Native.",
-      en: "C, C++, C#, Python, Java, JavaScript, Ruby, Assembly, Flutter, HTML, CSS, Vue.js and React Native.",
+      sv: "C, C++, C#, Python, Java, JavaScript, Ruby, Assembly, Flutter, Dart, HTML, CSS, Vue.js GDScript, SQL, och React Native.",
+      en: "C, C++, C#, Python, Java, JavaScript, Ruby, Assembly, Flutter, Dart, HTML, CSS, Vue.js GDScript, SQL, and React Native.",
     },
   },
   {
     icon: "Palette" as const,
     title: { sv: "Teknik & verktyg", en: "Tools & Technology" },
     description: {
-      sv: "Linux, Windows, Mac, Git, Azure DevOps, Photoshop, Solidworks och Fusion 360.",
-      en: "Linux, Windows, Mac, Git, Azure DevOps, Photoshop, Solidworks and Fusion 360.",
+      sv: "Linux, Windows, Mac, Git, Azure DevOps, Visual Studio, Godot, Photoshop, Solidworks och Fusion 360.",
+      en: "Linux, Windows, Mac, Git, Azure DevOps, Visual Studio, Godot, Photoshop, Solidworks and Fusion 360.",
     },
   },
   {

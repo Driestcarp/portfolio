@@ -20,6 +20,7 @@ const Navbar = () => {
     { label: t("nav", "about"), href: "#about" },
     { label: t("nav", "work"), href: "#projects" },
     { label: t("nav", "contact"), href: "#contact" },
+    { label: "CV", href: personalInfo.cv, target: "_blank" },
   ];
 
   return (
@@ -40,6 +41,7 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
+              target={link.target}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors font-heading tracking-wide hidden sm:block"
             >
               {link.label}
