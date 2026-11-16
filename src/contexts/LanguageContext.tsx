@@ -17,11 +17,11 @@ const translations: Record<Lang, Translations> = {
     },
 
     hero: {
-      subtitle: "Snart nyexaminerad systemutvecklare",
+      subtitle: "Nyexaminerad systemutvecklare",
       greeting: "Hej, jag är",
       tagline: "Jag bygger och löser problem med kod",
       description:
-        "Snart nyexaminerad utvecklare från Linköpings Universitet med erfarenhet av flera programmeringsspråk och projektbaserad systemutveckling.",
+        "Nyexaminerad utvecklare från Linköpings Universitet med erfarenhet av flera programmeringsspråk och projektbaserad systemutveckling.",
       viewWork: "Se projekt",
       getInTouch: "Kontakta mig",
     },
@@ -32,7 +32,7 @@ const translations: Record<Lang, Translations> = {
       heading2: "och problemlösning.",
 
       bio1:
-        "Jag är snart en nyexaminerad utvecklare från Linköpings Universitet med ett starkt intresse för teknik, systemutveckling och problemlösning. Under min utbildning arbetade jag med flera programmeringsspråk och utvecklade mjukvarulösningar både individuellt och i team.",
+        "Jag är en nyexaminerad utvecklare från Linköpings Universitet med ett starkt intresse för teknik, systemutveckling och problemlösning. Under min utbildning arbetade jag med flera programmeringsspråk och utvecklade mjukvarulösningar både individuellt och i team.",
 
       bio2:
         "Jag är analytisk och nyfiken och tycker om att sätta mig in i nya teknologier och komplexa problem. På fritiden lyssnar på ljudböcker, spelar datorspel med vänner och tränar Muay Thai.",
@@ -121,7 +121,7 @@ const translations: Record<Lang, Translations> = {
       greeting: "Hi, I'm",
       tagline: "I build and solve problems with code",
       description:
-        "Soon to be a recent graduate from Linköping University with experience in multiple programming languages and project-based software development.",
+        "Graduate from Linköping University with experience in multiple programming languages and project-based software development.",
       viewWork: "View Projects",
       getInTouch: "Get in Touch",
     },
@@ -132,7 +132,7 @@ const translations: Record<Lang, Translations> = {
       heading2: "and problem solving.",
 
       bio1:
-        "I am a soon to be recent graduate from Linköping University with a strong interest in technology, software development and problem solving. During my studies I worked with several programming languages and developed software solutions both individually and in teams.",
+        "I am a graduate from Linköping University with a strong interest in technology, software development and problem solving. During my studies I worked with several programming languages and developed software solutions both individually and in teams.",
 
       bio2:
         "I am a curious and analytical person who enjoys learning new technologies and tackling complex problems. In my free time I listen to audiobooks, play video games with friends and practice Muay Thai.",

@@ -12,10 +12,10 @@ const AboutSection = () => {
     <section id="about" className="py-32 px-6">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
+          // initial={{ opacity: 0, y: 40 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true, margin: "-100px" }}
+          // transition={{ duration: 0.6 }}
         >
           <p className="text-primary font-heading text-sm tracking-[0.3em] uppercase mb-4">{t("about", "label")}</p>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-8">
@@ -26,10 +26,10 @@ const AboutSection = () => {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, delay: 0.1 }}
+          // initial={{ opacity: 0, y: 30 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true, margin: "-80px" }}
+          // transition={{ duration: 0.6, delay: 0.1 }}
           className="grid md:grid-cols-2 gap-10 mb-20"
         >
           <p className="text-muted-foreground text-lg leading-relaxed">{t("about", "bio1")}</p>
@@ -42,10 +42,10 @@ const AboutSection = () => {
             return (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-80px" }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
+                // initial={{ opacity: 0, y: 30 }}
+                // whileInView={{ opacity: 1, y: 0 }}
+                // viewport={{ once: true, margin: "-80px" }}
+                // transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="p-8 rounded-xl bg-card border border-border hover:border-primary/30 transition-colors group"
               >
                 <Icon className="w-6 h-6 text-primary mb-4 group-hover:scale-110 transition-transform" />
@@ -57,10 +57,10 @@ const AboutSection = () => {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
+          // initial={{ opacity: 0, y: 40 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true, margin: "-100px" }}
+          // transition={{ duration: 0.6 }}
           className="mb-8"
         >
           <div className="flex items-center gap-3 mb-10">
@@ -73,10 +73,10 @@ const AboutSection = () => {
           {education.map((edu, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.5, delay: i * 0.15 }}
+              // initial={{ opacity: 0, x: -30 }}
+              // whileInView={{ opacity: 1, x: 0 }}
+              // viewport={{ once: true, margin: "-80px" }}
+              // transition={{ duration: 0.5, delay: i * 0.15 }}
               className="relative pl-8 border-l-2 border-border hover:border-primary/50 transition-colors group"
             >
               <div className="absolute left-[-7px] top-2 w-3 h-3 rounded-full bg-border group-hover:bg-primary transition-colors" />

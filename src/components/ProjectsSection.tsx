@@ -20,10 +20,10 @@ const ProjectsSection = () => {
     <section id="projects" className="py-32 px-6">
       <div className="max-w-5xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
+          // initial={{ opacity: 0, y: 40 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true, margin: "-100px" }}
+          // transition={{ duration: 0.6 }}
         >
           <p className="text-primary font-heading text-sm tracking-[0.3em] uppercase mb-4">{t("projects", "label")}</p>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-16">
@@ -39,10 +39,10 @@ const ProjectsSection = () => {
             return (
               <motion.div
                 key={project.id}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-80px" }}
-                transition={{ duration: 0.5, delay:  0.1 }}
+                // initial={{ opacity: 0, y: 40 }}
+                // whileInView={{ opacity: 1, y: 0 }}
+                // viewport={{ once: true, margin: "-80px" }}
+                // transition={{ duration: 0.5, delay:  0.1 }}
                 className="rounded-xl border border-border bg-card overflow-hidden hover:border-primary/30 transition-colors"
               >
                 <button onClick={() => toggle(i)} className="w-full text-left">
@@ -68,10 +68,10 @@ const ProjectsSection = () => {
                 <AnimatePresence>
                   {isOpen && (
                     <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.35, ease: "easeInOut" }}
+                      // initial={{ height: 0, opacity: 0 }}
+                      // animate={{ height: "auto", opacity: 1 }}
+                      // exit={{ height: 0, opacity: 0 }}
+                      // transition={{ duration: 0.35, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
                       <div className="px-8 md:px-10 pb-8 md:pb-10 border-t border-border">

@@ -16,10 +16,10 @@ const ContactSection = () => {
     <section id="contact" className="py-32 px-6">
       <div className="max-w-5xl mx-auto text-center">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
+          // initial={{ opacity: 0, y: 40 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // viewport={{ once: true, margin: "-100px" }}
+          // transition={{ duration: 0.6 }}
         >
           <p className="text-primary font-heading text-sm tracking-[0.3em] uppercase mb-4">{t("contact", "label")}</p>
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-6">
