@@ -101,7 +101,7 @@ const translations: Record<Lang, Translations> = {
     contact: {
       label: "Kontakt",
       heading1: "Kontakta",
-      heading2: "mig.",
+      heading2: "mig",
       description:
         "Är du intresserad av att samarbeta eller har ett jobb eller projekt? Hör gärna av dig.",
       cta: "Skicka email",
@@ -201,7 +201,7 @@ const translations: Record<Lang, Translations> = {
     contact: {
       label: "Contact",
       heading1: "Get in",
-      heading2: "touch.",
+      heading2: "touch",
       description:
         "Interested in collaborating or have a job or project opportunity? Feel free to reach out.",
       cta: "Send email",

@@ -57,7 +57,7 @@
     "color": "",
     "image": "",
     "liveUrl": "/",
-    "githubUrl": "https://github.com/Driestcarp/portfolio"
+    "githubUrl": null
   },
   {
     "id": "examensarbete",
@@ -97,7 +97,7 @@
     "color": "from-zinc-500/20 to-zinc-500/5",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "https://github.com/Driestcarp/terminal_videoplayer"
+    "githubUrl": null
 },
   {
     "id": "soa-project",
@@ -117,7 +117,7 @@
     "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "https://github.com/Driestcarp/enterprise_systems_soa_project"
+    "githubUrl": null
   },
   {
     "id": "preciouspluspus",
@@ -157,7 +157,7 @@
     "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "#"
+    "githubUrl": null
   },
   {
     "id": "tweeter",
@@ -177,7 +177,7 @@
     "color": "from-sky-500/20 to-sky-500/5",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "#"
+    "githubUrl": null
   },
   {
     "id": "guardians-of-the-pond",
@@ -217,7 +217,7 @@
     "color": "",
     "image": "",
     "liveUrl": "https://youtu.be/YBPMShUrgxk",
-    "githubUrl": "https://github.com/Driestcarp/rating_app/"
+    "githubUrl": null
   },
   {
     "id": "bullet-hell",
@@ -257,7 +257,7 @@
     "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "https://github.com/Driestcarp/brian-air-projekt"
+    "githubUrl": null
   },
   {
     "id": "chat-app",
@@ -277,7 +277,7 @@
     "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "https://github.com/Driestcarp/windows_chat_app"
+    "githubUrl": null
   },
   {
     "id": "system-administration",
@@ -297,6 +297,26 @@
     "color": "",
     "image": "",
     "liveUrl": null,
-    "githubUrl": "https://github.com/Driestcarp/system_admin_project"
-  }
+    "githubUrl": null
+  },
+  {
+  "id": "dod-charactersheets",
+  "title": {
+    "sv": "Karaktärsblad för Drakar & Demoner",
+    "en": "Character Sheets for Dragonbane"
+  },
+  "description": {
+    "sv": "Ett webbaserat verktyg för att skapa och hantera karaktärsblad i rollspelet Drakar & Demoner.",
+    "en": "A web-based tool for creating and managing character sheets in the Dragonbane tabletop game."
+  },
+  "details": {
+    "sv": "Ett webbaserat verktyg för att skapa och hantera karaktärsblad i rollspelet Drakar & Demoner. Byggt med React och TypeScript. I projektet ingick design av användargränssnittet samt funktioner för att skapa, redigera och ta bort flera karaktärer, en inbyggd tärningsrullare och mörkt läge. Karaktärsbladen sparas lokalt i webbläsaren med hjälp av LocalStorage, och äldre sparade blad uppgraderas automatiskt när datamodellen ändras.",
+    "en": "A web-based tool for creating and managing character sheets in the Dragonbane tabletop game. Built with React and TypeScript. The project included designing the user interface and implementing features for creating, editing and deleting multiple characters, a built-in dice roller and dark mode. Character data is stored locally in the browser using LocalStorage, and older saved sheets are migrated automatically when the data model changes."
+  },
+  "tags": ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Webbutveckling"],
+  "color": "",
+  "image": "",
+  "liveUrl": null,
+  "githubUrl": "https://albinlofgren.se/dod"
+}
 ]
