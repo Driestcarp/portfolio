@@ -316,7 +316,7 @@
   "tags": ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Webbutveckling"],
   "color": "",
   "image": "",
-  "liveUrl": null,
-  "githubUrl": "https://albinlofgren.se/dod"
+  "liveUrl": "https://albinlofgren.se/dod",
+  "githubUrl": null
 }
 ]
