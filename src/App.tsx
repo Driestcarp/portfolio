@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Dodpage from "./pages/dodpage";
 import NotFound from "./pages/NotFound";
+import HexColorGame from "./pages/hex_color_game";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
           <Route path="dod" element={<Dodpage/>} />
+          <Route path="hex_color_game" element={<HexColorGame/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

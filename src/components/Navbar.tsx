@@ -5,6 +5,8 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { useTheme } from "@/contexts/ThemeContext";
 import { personalInfo } from "@/data/portfolio";
 
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const { lang, toggleLang, t } = useLanguage();
@@ -64,6 +66,20 @@ const Navbar = () => {
             >
               {theme === "dark" ? <Sun className="w-3.5 h-3.5" /> : <Moon className="w-3.5 h-3.5" />}
             </button>
+            <Link
+              to="/hex_color_game"
+              className="p-2 rounded-md border border-border hover:border-primary/30 transition-colors"
+              aria-label={lang === "sv" ? "Spela färgspelet" : "Play the color game"}
+              title={lang === "sv" ? "Färggissaren" : "Color Guesser"}
+            >
+              <span
+                className="block w-3.5 h-3.5 rounded-full"
+                style={{
+                  background:
+                    "conic-gradient(from 0deg, hsl(0,45%,62%), hsl(35,45%,62%), hsl(55,45%,60%), hsl(130,35%,58%), hsl(185,40%,58%), hsl(220,45%,64%), hsl(265,40%,66%), hsl(325,40%,64%), hsl(0,45%,62%))",
+                }}
+              />
+            </Link>
           </div>
         </div>
       </div>

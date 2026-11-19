@@ -316,7 +316,27 @@
   "tags": ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Webbutveckling"],
   "color": "",
   "image": "",
-  "liveUrl": "https://albinlofgren.se/dod",
+  "liveUrl": "/dod",
+  "githubUrl": null
+},
+{
+  "id": "hex-color-game",
+  "title": {
+    "sv": "Färggissaren",
+    "en": "Color Guesser"
+  },
+  "description": {
+    "sv": "Ett webbaserat spel där du gissar en färg med hex-kod, RGB- eller HSL-reglage.",
+    "en": "A web-based game where you guess a color using a hex code, RGB or HSL sliders."
+  },
+  "details": {
+    "sv": "Ett webbaserat spel där man får en slumpad färg och ska återskapa den så exakt som möjligt, antingen genom att skriva en hex-kod eller med reglage för RGB eller HSL. Spelet består av 10 rundor och poängen baseras på avståndet mellan gissningen och rätt färg i RGB-rymden. Byggt med React, TypeScript och Tailwind CSS. Topplistan sparas lokalt i webbläsaren med hjälp av LocalStorage.",
+    "en": "A web-based game where you are shown a random color and have to recreate it as accurately as possible, either by typing a hex code or by using RGB or HSL sliders. The game has 10 rounds and the score is based on the distance between your guess and the correct color in RGB space. Built with React, TypeScript and Tailwind CSS. The color math (conversion between hex, RGB and HSL as well as score calculation) is written from scratch without libraries. The scoreboard is stored locally in the browser using LocalStorage."
+  },
+  "tags": ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Webbutveckling"],
+  "color": "",
+  "image": "",
+  "liveUrl": "/hex_color_game",
   "githubUrl": null
 }
 ]
